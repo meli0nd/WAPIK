@@ -538,3 +538,147 @@ body {
         margin-bottom: 30px;
 
 }
+}
+
+
+/* Review */
+
+.review_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    padding: 0px 350px;
+    padding-bottom: 140px;
+}
+
+.review-text {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.review-text_quote {
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: #83a7a5;
+    font-weight: 400;
+}
+
+.review-name {
+    font-size: 14px;
+    color: #6fb048;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.review-post {
+    font-weight: 500;
+    font-size: 14px;
+    color: #83a7a5;
+}
+
+@media (max-width:1400px) {
+    .review_container {
+        padding: 0 250px;
+        padding-bottom: 140px;
+    }
+}
+@media (max-width:1199px) {
+    .review_container {
+        padding: 0 100px;
+        padding-bottom: 140px;
+    }
+}
+@media (max-width:996px) {
+    .review_container {
+        padding: 0 50px;
+        padding-bottom: 140px;
+    }
+}
+@media (max-width:768px) {
+    .review_container {
+        padding: 0 50px;
+        padding-bottom: 140px; 
+        flex-direction: column-reverse; 
+    }
+    .review-text {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:399px) {
+    .review-image {
+        display: flex;
+        justify-content: center;
+    }
+    .review-image-woman {
+        width: 60%;
+    }
+}
+
+/* Section */
+
+.section-container {
+    background: url(img/section-bg.png) no-repeat center/cover;
+    padding-left: 225px;
+    padding-bottom: 180px;
+    padding-top: 180px;
+    text-align: start;
+}
+
+.section-text {
+    width: 40%;
+}
+
+.section_title {
+    font-size: 32px;
+    color: #0f5f5c;
+    margin-bottom: 25px;
+}
+
+.section_subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    color: #83a7a5;
+}
+
+@media (max-width:1400px) {
+    .section-container {
+        padding-left: 150px;
+    }
+    .section-text {
+        width: 60%;
+    }
+}
+@media (max-width:1199px) {
+    .section-container {
+        padding-left: 50px;
+    }
+    .section-text {
+        width: 60%;
+    }
+}
+@media (max-width:768px) {
+    .section-container {
+        padding: 180px 50px;
+        text-align: center;
+    }
+    .section-text {
+        width: auto;
+    }
+    .section_subtitle {
+        font-size: 16px;
+        font-weight: 600;
+        color: #2c4745;
+    }
+}
+@media (max-width:399px) {
+    .section-container {
+        background: none;
+        padding: 100px 10px;
+    }
+}
