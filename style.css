@@ -1038,6 +1038,16 @@ body {
     font-size: 18px;
     color: #0f5f5c;
 }
+.help-footer a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0f5f5c;
+}
+.help-footer a:hover{
+    text-decoration: underline;
+    opacity: .8;
+}
 
 @media (max-width:500px) {
     .help-line {
@@ -1167,6 +1177,10 @@ body {
     text-decoration: none;
 }
 
+.others_list li {
+    cursor: pointer ;
+}
+
 .info_logo {
     margin-bottom: 15px;
     font-size: 22px;
@@ -1212,10 +1226,8 @@ body {
     transition: .4s;
 }
 .social-media img:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     opacity: 0.9;
-    margin-left: 15px;
-    margin-right: 5px;
 }
 
 @media (max-width:1400px) {
@@ -1288,4 +1300,6 @@ body {
         font-size: 12px;
     }
 }
+
+
 
