@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', 'ProximaNova', 'Roboto', sans-serif;
+}
+
+.header {
+    padding-bottom: 0;
+    background: #fff;
+}
+
+.nav-logo {
+    color: #0f5f5c;
+}
+
+.tel {
+    color: #83a7a5;
+}
+
+.navigation a {
+    color: #83a7a5;
+}
+
+.nav-btn {
+    background: #6fb048;
+}
+.nav-btn a {
+    color: #fff;
+}
+.navigation a:hover {
+    color: #83a7a5;
+    opacity: 0.7;
+}
+.nav-btn:hover {
+    background: #6fb048;
+}
+.nav-btn a:hover {
+    color: #fff;
+}
+.tel {
+    display: none;
+}
+.map {
+    background: url(img/header-bg.png)no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.contact-heading_container {
+    margin-top: 75px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-subtitle {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact_container {
+    padding: 0px 290px 0px 290px;
+    display: flex;
+}
+
+.form_container {
+    width: 50%;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_container input {
+    color: rgb(64, 76, 76);
+    font-size: 14px;
+    padding: 20px 17px 20px 17px;
+    width: 100%;
+    margin-bottom: 26px;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 2px solid #c1d3d2;
+}
+
+.form_container input:focus {
+    border: 2px solid #8ec1bf;
+}
+
+.form_container textarea {
+    margin-bottom: 16px;
+    color: rgb(64, 76, 76);
+    font-size: 14px;
+    padding: 20px 17px 20px 17px;
+    width: 100%;
+    font-weight: 800;
+    outline: none;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.12);
+    border: 2px solid #c1d3d2;
+}
+.form_container textarea:focus {
+    border: 2px solid #8ec1bf;
+}
+.contact-btn {
+    width: 192px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    background: #6fb048;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.headquarter_container {
+    height: 30vh;
+    padding: 40px 140px 40px 40px;
+    border: 2px solid #83a7a5;
+    border-style: dashed;
+}
+
+.headquarter_title {
+    display: inline-block;
+    font-size:  22px;
+    color: #0f5f5c;
+    margin-bottom: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.headquarter_adress {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.headquarter_adress img {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.adress-text  {
+    margin-left: 20px;
+}
+
+.headquarter-text {
+    font-size: 15px;
+    color: #83a7a5;
+}
+
+.mail-text {
+    display: inline-block;
+    color: #0f5f5c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1400px) {
+    .contact_container {
+        padding: 0px 190px 0px 190px;
+    }
+}
+@media (max-width: 1199px) {
+    .contact_container {
+        padding: 0px 100px 0px 100px;
+    }
+}
+@media (max-width: 999px) {
+    .header {
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .contact_container {
+        flex-direction: column;
+    }   
+    .form_container {
+        width: 100%;
+        align-items: center;
+    }
+    .headquarter_container {
+        padding: 40px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .headquarter_adress {
+        position: static;
+        display: inline;
+        text-align: start;
+    }
+    .headquarter_adress img {
+        position: static;
+        width: 16px;
+        height: 16px;
+    }
+    .adress-text {
+        margin-left: 0;
+    }
+}
+@media (max-width: 599px) {
+.media-logo {
+    display: inline;
+    font-size: 50px;
+    font-weight: 800;
+    color: #0f5f5c;
+}
+}
+@media (max-width: 499px) {
+    .contact_container {
+        padding: 0px 50px 0px 50px;
+    }
+    .contact-title {
+        font-size: 26px;
+        text-align: center;
+    }
+}
+@media (max-width: 299px) {
+    .contact-subtitle {
+        text-align: center;
+    }
+    .contact_container {
+        padding: 0px 10px 0px 10px;
+    }
+}
+
+
+
+
+  
+
+
